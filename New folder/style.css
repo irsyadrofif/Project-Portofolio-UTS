@@ -1,0 +1,307 @@
+/* Styling Dasar */
+* {
+  font-family: segoe UI;
+}
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #0f172a;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #0f172a;
+  color: #f8fafc;
+  display: flex;
+  padding: 6px;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+nav {
+  padding: 10px;
+  margin-top: 20px;
+}
+nav a {
+  color: #f8fafc;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: #38bdf8;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #0f172a;
+  color: #f8fafc;
+  bottom: 0;
+  width: 100%;
+}
+.bawah-kotak {
+  display: flex;
+  gap: 10px;
+  justify-content: left;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.bawah-kotak > div > a {
+  text-decoration: none;
+  background-color: aqua;
+  color: #2c3e50;
+  padding: 20px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-radius: 20px;
+  margin-right: 40px;
+  font-weight: bold;
+}
+.bawah-kotak > div:hover {
+  transform: translateY(-7px);
+  text-decoration: underline;
+}
+
+/*Home*/
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #2c3e50;
+}
+.container-home {
+  margin-left: 100px;
+}
+.home-main {
+  display: flex;
+  margin: 20px;
+  padding: 20px;
+  max-width: 600px;
+}
+.img-home {
+  width: 200px;
+  border-radius: 15px;
+  border: 2px;
+  border-style: solid;
+  border-color: purple;
+  margin: 30px;
+}
+article {
+  margin-top: 40px;
+}
+.tombol-awal {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 60px;
+  margin-left: 65px;
+}
+.tombol-home a {
+  color: #f9fbfd;
+  border-radius: 20px;
+  background-color: rgb(49, 15, 201);
+  padding: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+  text-decoration: none;
+  margin-right: 30px;
+}
+.tombol-home a:hover {
+  text-decoration: underline;
+  box-shadow: 0 4px 10px black;
+  transform: translateY(-5px);
+}
+
+/*tentang*/
+.container-tentang {
+  display: flex;
+  margin-left: 36px;
+}
+.container-diri {
+  margin-top: 95px;
+}
+.container-diri > h2 {
+  color: #1e3a8a;
+  font-size: 30px;
+}
+.img-tentang {
+  width: 250px;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-top: 80px;
+}
+figure > figcaption {
+  font-size: 23px;
+  font-weight: bold;
+}
+.biodata-diri {
+  display: grid;
+  grid-template-columns: max-content auto 1fr;
+  gap: 10px 20px;
+}
+.data-diri {
+  font-weight: bold;
+}
+
+/*Pendidikan*/
+.container-pendidikan {
+  max-width: 1200px;
+  margin: 30px;
+  margin-left: 80px;
+}
+.container-pendidikan > h2 {
+  font-size: 45px;
+}
+.container-pendidikan > p {
+  font-size: 20px;
+}
+.kotak-kotak {
+  display: flex;
+  gap: 20px;
+}
+.kotak {
+  background-color: #ffffff;
+  color: #1e3a8a;
+  padding: 20px;
+  border-radius: 20px;
+  border: 1px solid #e2e8f0;
+  width: 300px;
+}
+.kotak:hover {
+  transform: translateY(-5px);
+}
+
+/*hobby*/
+.container-hobby {
+  max-width: 1200px;
+  margin-left: 77px;
+}
+.judul-hobi {
+  max-width: 400px;
+}
+.judul-hobi > h1 {
+  font-size: 45px;
+}
+.judul-hobi > h2 {
+  font-size: 30px;
+  color: #1e3a8a;
+}
+.judul-hobi > p {
+  font-size: 20px;
+}
+.kotak-hobby {
+  display: flex;
+  flex-wrap: wrap;
+}
+.hobbby {
+  justify-content: space-around;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 30px;
+  text-align: center;
+  color: black;
+  width: 500px;
+}
+.hobbby:hover {
+  box-shadow: 0px 4px 7px black;
+  transform: translateY(-7px);
+}
+
+/*skill*/
+.container-skill {
+  max-width: 1200px;
+}
+.container-skill > h2 {
+  color: #1e3a8a;
+  font-size: 45px;
+  margin-left: 90px;
+}
+.container-skill > p {
+  font-size: 20px;
+  margin-left: 90px;
+}
+.kotak-skill {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 60px;
+}
+.kotak-skill > div {
+  margin: 20px;
+  background-color: #f8fafc;
+  border: 1px solid black;
+  padding: 20px;
+  width: 600px;
+  border-radius: 30px;
+  text-align: center;
+}
+.kotak-skill > div:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 9px black;
+}
+
+/*Kontak*/
+.container-kontak {
+  text-align: center;
+}
+.container-kontak > h1 {
+  font-size: 45px;
+  color: #1e3a8a;
+}
+.kotak-kontak {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.kotak-kontak > div {
+  background-color: rgb(222, 236, 236);
+  width: 210px;
+  margin: 20px;
+  padding: 30px;
+  border: 1px solid grey;
+  border-radius: 20px;
+  font-size: 20px;
+}
+.kotak-kontak > div:hover {
+  transform: translateY(-7px);
+}
+.kotak-kontak > div > a {
+  text-decoration: none;
+}
+.kotak-kontak > div > a:hover {
+  text-decoration: underline;
+}
+.bawah-kontak {
+  display: flex;
+  justify-content: center;
+}
+.bawah-kontak > div {
+  margin: 10px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.bawah-kontak > div > a {
+  margin: 20px;
+  padding: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+  border-radius: 20px;
+  border: 1px solid black;
+  color: #0f172a;
+  background-color: rgb(27, 201, 186);
+  width: 170px;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.bawah-kontak > div:hover {
+  transform: translateY(-7px);
+  text-decoration: underline;
+}
